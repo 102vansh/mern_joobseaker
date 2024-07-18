@@ -29,9 +29,13 @@ const Navbar = () => {
   return (
     <nav className={isAuthorized ? "navbarShow" : "navbarHide"}>
       <div className="container">
+      
     <Link to={'/'}>   <div className="logo">
-          <img src="https://img.freepik.com/premium-vector/job-seeker-logo-mascot-template_190190-188.jpg" alt="logo" />
+          <img src="https://t4.ftcdn.net/jpg/01/09/57/19/360_F_109571909_oVFclueuNgG0w69Ie604O2rK7CWhLxT0.jpg" alt="logo" />
+          
+     
         </div>
+        <h1 className="tag" style={{color:'white',fontSize:'1.5rem',marginLeft:'15px'}}>EASY HIRE</h1>
         </Link>
         <ul className={!show ? "menu" : "show-menu menu"}>
           <li>

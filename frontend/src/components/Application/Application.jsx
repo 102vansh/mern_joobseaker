@@ -108,7 +108,7 @@ const Application = () => {
               style={{ width: "100%" }}
             />
           </div>
-          <button type="submit" style={{position:'absolute', bottom:'20px'}}>Send Application</button>
+          <button type="submit" style={{position:'absolute', bottom:'-220px'}}>Send Application</button>
         </form>
       </div>
     </section>

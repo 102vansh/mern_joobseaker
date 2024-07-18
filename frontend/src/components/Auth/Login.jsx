@@ -46,7 +46,7 @@ const Login = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="https://icon-library.com/images/job-seeker-icon/job-seeker-icon-16.jpg" alt="logo" />
+            <img src="https://t4.ftcdn.net/jpg/01/09/57/19/360_F_109571909_oVFclueuNgG0w69Ie604O2rK7CWhLxT0.jpg" alt="logo" />
             <h3>Login to your account</h3>
           </div>
           <form  style={{marginLeft:'50px'}}>
@@ -66,7 +66,7 @@ const Login = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="Enter your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />

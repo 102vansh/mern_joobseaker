@@ -21,7 +21,12 @@ app.use(
     credentials: true,
   })
 );
-
+app.get('/',(req,res) =>{
+  res.json({
+    success:true,
+    message:"get the job"
+  })
+})
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

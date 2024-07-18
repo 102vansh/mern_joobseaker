@@ -40,7 +40,7 @@ const Register = () => {
       setRole("");
       setIsAuthorized(true);
     } catch (error) {
-      // toast.error(error.response.data.message);
+       toast.error(error.response.data.message);
     }
   };
   
@@ -55,7 +55,7 @@ const Register = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="https://cdn2.iconfinder.com/data/icons/job-employment-and-interview/300/job-recruit-seeker-001-512.png" alt="logo" />
+            <img src="https://t4.ftcdn.net/jpg/01/09/57/19/360_F_109571909_oVFclueuNgG0w69Ie604O2rK7CWhLxT0.jpg" alt="logo" />
             <h3>Create a new account</h3>
           </div>
           <form style={{marginLeft:'50px'}}>
@@ -75,7 +75,7 @@ const Register = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="Zeeshan"
+                  placeholder="Enter your Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -87,7 +87,7 @@ const Register = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="Enter youe Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -99,7 +99,7 @@ const Register = () => {
               <div>
                 <input
                   type="number"
-                  placeholder="12345678"
+                  placeholder="Mobile no.."
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
